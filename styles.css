@@ -86,7 +86,6 @@ li a {
     text-align: right;
     min-width: none;
     object-fit: contain;
-    
 }
 
 .onebutton {
@@ -107,6 +106,7 @@ li a {
     border: 2px solid black;
     width: 100%;
     max-width: 600px;
+    border-radius: 10px;
 }
 
 .two {
