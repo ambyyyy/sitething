@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;  
-
 }
 
 .one {
@@ -25,7 +24,7 @@ body {
 }
 .header {
     display: flex;
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
 
 .headlinks {
@@ -55,13 +54,14 @@ li a {
     flex-wrap: wrap;
     flex: 1 1 350px;
     justify-content: flex-start;
+    padding: 100px 0px;
 }
 
 .onecontext {
     display: flex;
     flex-direction: column;
     width: 50%;
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: left;
     flex: 1;
     box-sizing: border-box;
@@ -70,7 +70,7 @@ li a {
 }
 
 .onetitle {
-    font-size: 60px;
+    font-size: 2.5vw;
     padding-bottom: 20px;
     justify-self: flex-start;
 }
@@ -96,7 +96,7 @@ li a {
 #signup {
     max-width: 200px;
     height: 50px;
-    width: 200px;
+    width: 10vw;
     border-radius: 15px;
     border: 0;
     font-size: 20px;
@@ -129,6 +129,7 @@ li a {
     gap: 7%;
     padding-top: 100px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .pics img {
     width: 250px;
@@ -139,7 +140,7 @@ li a {
 
 .pics {
     padding-bottom: 5%;
-    flex: 1 1 auto;
+
     text-align: center;
 }
 
@@ -162,16 +163,15 @@ li a {
 .quote {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 5vw;
 }
 
 .threequote {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .quoter {
-    font-size: 25px;
+    font-size: 1.5vw;
     margin-left: 75%;
 }
 
@@ -181,4 +181,46 @@ li a {
     padding: 30px;
     background-color: darkslateblue;
     color: white;
+}
+
+.four {
+    padding-left: 15%;  
+    padding-right: 15%;
+    text-align: center;
+    background-color: mintcream;
+}
+
+.fourbox {
+    display: flex;
+    padding: 3vw;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(92, 84, 141);
+}
+
+.fourtext p1 {
+    font-size: 2vw;
+}
+
+.fourtext p2 {
+    font-size: 1vw;
+}
+
+.fourtext {
+    text-align: left;
+    color: white;
+    flex-basis: 70%;
+}
+
+.fourbutton{
+    flex-basis: 30%;
+    margin-left: auto;
+    align-content: center;
+}
+.donate {
+    width: 70%;
+    height: 50%;
+    font-size: 1vw;
+    border-radius: 40px;
 }
