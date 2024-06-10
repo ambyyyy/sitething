@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 70px;
+
 }
 
 .headlogo {
@@ -217,7 +218,10 @@ li a {
     flex-basis: 30%;
     margin-left: auto;
     align-content: center;
+    box-sizing: border-box;
+    height: 10vh;
 }
+
 .donate {
     width: 70%;
     height: 50%;
